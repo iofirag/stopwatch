@@ -31,12 +31,6 @@ html,body {
 
 
 /****** Controlers *****************/
-#stopwatchPanel #controlers{
-/*	height: 50px;
-    background-color: #FFFFFF;
-    border-radius: 0 0 15px 15px;
-    text-transform: capitalize;*/
-}
 #playStop {
     float: left;
     width: 70%;
@@ -116,16 +110,6 @@ html,body {
     margin-top: 2px;
 }
 /*------------------------*/
-
-
-
-/*.blink_me {
-  animation: blinker 1s linear infinite;
-}
-
-@keyframes blinker {  
-  50% { opacity: 0.0; }
-}*/
 
 .clear {
     clear: both;

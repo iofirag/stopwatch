@@ -1,0 +1,176 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	background-color: #333333;
+}
+#wrapper {
+	height: 620px;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 25px;
+}
+
+/****** Main Panel *****************/
+#stopwatchPanel {
+    padding-bottom: 50px;
+}
+
+/****** board *****************/
+#stopwatchView {
+	height: 120px;
+    background-color: #242424;
+    border-radius: 15px 15px 0 0;
+}
+#stopwatchView #main-time{
+	padding-top: 24px;
+    color: #9ACE33;
+    text-align: center;
+    font-size: 65px;
+    font-family: sans-serif;
+}
+
+
+/****** Controlers *****************/
+#stopwatchPanel #controlers{
+/*	height: 50px;
+    background-color: #FFFFFF;
+    border-radius: 0 0 15px 15px;
+    text-transform: capitalize;*/
+}
+#playStop {
+    float: left;
+    width: 70%;
+    height: 47px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    text-transform: capitalize;
+    border: none;
+    border-right: 1px solid gray;
+    border-radius: 0 0 0 15px;
+}
+#lap {
+	float: left;
+	width: 15%;
+    height: 47px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    border: none;
+    border-right: 1px solid gray;
+    text-transform: capitalize;
+}
+#reset {
+	width: 15%;
+    height: 47px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 0 0 15px 0;
+}
+.our-font {
+	font-family: sans-serif;
+    font-weight: 700;
+}
+/*------------------------------*/
+
+
+/****** Item *******************/
+#list #remove-all-btn {
+	background-color: #FF9800;
+	color: #FFFFFF;
+	text-transform: uppercase;
+    border: none;
+    padding: 6px;
+    font-weight: 700;
+    font-family: cursive;
+    margin-top: 2px;
+}
+#list .item {
+	color: #FFFFFF;
+}
+.item .time {
+	float: left;
+	/*width: 25%;*/
+	font-size: 30px;
+    font-weight: 700;
+    font-family: cursive;
+    margin-right: 30px;
+}
+.item .title{
+	float: left;
+	width: 58%;
+	font-size: 20px;
+    font-family: cursive;
+    padding-top: 7px;
+}
+.item .removeBtn{
+	float: right;
+    width: 11%;
+    min-width: 75px;
+    text-transform: uppercase;
+    background-color: #E93F33;
+    border: none;
+    padding: 6px;
+    font-weight: 700;
+    font-family: cursive;
+    margin-top: 2px;
+}
+/*------------------------*/
+
+
+
+/*.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}*/
+
+.clear {
+    clear: both;
+}
+
+.centerText{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 769px) {/*Desktop*/
+	#wrapper {
+		width: 70%;
+	}
+}
+
+@media only screen and (min-width: 366px) and (max-width: 768px) {/*Tablet*/
+	#wrapper {
+		width: 80%;
+	}
+	.item .time {
+		font-size: 30px;
+	    font-weight: 500;
+	    margin-right: 30px;
+	}
+	.item .title{
+		width: 50%;
+		font-size: 20px;
+	}
+	.item .removeBtn{
+	    width: 11%;
+	    min-width: 75px;
+	}
+}
+
+@media only screen and (max-width: 365px) {/*mobile*/
+	#wrapper {
+		width: 90%;
+	}
+}

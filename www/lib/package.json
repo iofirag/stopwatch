@@ -1,0 +1,14 @@
+{
+  "name": "boost",
+  "version": "1.0.0",
+  "description": "",
+  "main": "angular.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ofir Aghai",
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-router": "^0.2.18"
+  }
+}

@@ -22,7 +22,7 @@ angular.module('stopwatch.controllers', [])
 }])
 
 /* Board + stopwatch-controllers Controller (child) */
-.controller('panelCtrl', ['$scope','$rootScope','$interval', function($scope, $rootScope, $interval){
+.controller('panelCtrl', ['$scope','$interval', function($scope, $interval){
   $scope.vars;
 
   $scope.$on('onbeforeunload',function(){

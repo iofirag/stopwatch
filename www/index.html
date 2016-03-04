@@ -6,6 +6,7 @@
     <title>Stopwatch</title>
 
     <!-- Style -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
     <link href="css/html5reset-1.6.1.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
 
@@ -29,7 +30,7 @@
         <section id="stopwatchView">
           <section id="main-time" class="blink_me">{{vars.timeToShow}}</section>
         </section>
-        <section id="controlers">
+        <section id="controllers">
           <input id="playStop" type="button" value="start" ng-click="playAndPause(false)" />
           <input id="lap" type="button" value="lap" ng-click="newLap()" />
           <input id="reset" type="button" value="reset" ng-click="reset()" />

@@ -1,0 +1,6 @@
+Node:
+	node server.js || node-dev server.js
+
+Gulp:
+	gulp <taskName in Gulpfile.js file>
+	ex: gulp sass
